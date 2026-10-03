@@ -178,15 +178,6 @@ Through this project, I strengthened my ability to:
 
 ---
 
-## Internship
-
-Completed as part of the **Elevvo Data Analytics Internship**.
-
-**Track:** Data Analytics
-**Project:** SQL / Chinook Database Analysis
-
----
-
 ## Author
 
 **Ahmed Bayoumy**
