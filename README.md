@@ -61,10 +61,19 @@ The project demonstrates:
 * `RANK()`
 
 ---
+## 🗄️ Database Architecture & Schema Design
+<img width="1020" height="585" alt="Diagram" src="https://github.com/user-attachments/assets/20e7ec33-d587-4109-8fc5-0a0fab62cdca" />
 
-## 🖼️ Analysis Performed
+* **Architecture Type:** Normalized Relational Database (3NF / OLTP Schema).
+* **Data Modeling:** Fully normalized to eliminate redundancy, featuring parent-child transactional granularity (`Invoice` header to `InvoiceLine` details).
+* **Relational Depth:** Includes normalized lookup hierarchies (e.g., `InvoiceLine` ➔ `Track` ➔ `Album` ➔ `Artist`) requiring multi-table `JOIN` operations to reconstruct complete business entities.
+* **Integrity:** Enforces strict Primary Key (PK) and Foreign Key (FK) referential constraints across 11 relational tables.
+
+
+## 🔍 Analysis Performed
 
 ### 1. Product & Track Analysis
+<img width="438" height="606" alt="1 - 2" src="https://github.com/user-attachments/assets/baceff42-6347-42f9-840f-2cf0ee429528" />
 
 Analyzed track-level sales performance to identify:
 
@@ -74,6 +83,7 @@ Analyzed track-level sales performance to identify:
 * High-performing products
 
 ### 2. Artist & Genre Analysis
+<img width="920" height="604" alt="4" src="https://github.com/user-attachments/assets/7e39dd60-4613-4058-809b-a977bed1766b" />
 
 Evaluated artist and genre performance to determine:
 
@@ -83,6 +93,7 @@ Evaluated artist and genre performance to determine:
 * Top-performing music categories
 
 ### 3. Customer Analysis
+<img width="486" height="603" alt="3" src="https://github.com/user-attachments/assets/98af5faf-29a1-427e-8fb8-24bb17695ef1" />
 
 Analyzed customer purchasing behavior by:
 
@@ -92,14 +103,17 @@ Analyzed customer purchasing behavior by:
 * Customers spending above the average
 
 ### 4. Geographic Analysis
+<img width="573" height="604" alt="5" src="https://github.com/user-attachments/assets/7f148f1c-99f6-4676-ab78-16235ef5e154" />
 
 Evaluated customer and sales distribution across countries to identify major revenue-contributing markets.
 
 ### 5. Revenue Trend Analysis
+<img width="730" height="604" alt="6" src="https://github.com/user-attachments/assets/f369805f-53e9-43e4-b2c7-60d97f90f1d3" />
 
 Analyzed revenue over time to identify monthly performance patterns and changes in sales activity.
 
 ### 6. Ranking Analysis
+<img width="500" height="602" alt="7" src="https://github.com/user-attachments/assets/3567a289-aaed-4637-9507-d273c4e0bb82" />
 
 Applied the `RANK()` window function to rank products based on revenue and identify top-performing tracks.
 
@@ -114,7 +128,7 @@ Applied the `RANK()` window function to rank products based on revenue and ident
 * Monthly revenue analysis reveals changes in purchasing activity over time.
 * Ranking products by revenue helps identify the strongest contributors to overall performance.
 
----
+<img width="2141" height="1686" alt="Report" src="https://github.com/user-attachments/assets/6f7b6e27-342d-4a18-b68f-42810046ef1b" />
 
 ## 📈 Business Recommendations
 
