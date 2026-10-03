@@ -121,6 +121,8 @@ Applied the `RANK()` window function to rank products based on revenue and ident
 
 ## 🗝 Key Insights
 
+<img width="1078" height="604" alt="8" src="https://github.com/user-attachments/assets/e1bc3b58-fc84-44b7-9a01-6bfde60a6e3b" />
+
 * A relatively small number of tracks contribute a significant share of total purchases.
 * Customer spending varies considerably, with a subset of customers generating higher transaction value.
 * Music genres and artists contribute differently to overall sales performance.
