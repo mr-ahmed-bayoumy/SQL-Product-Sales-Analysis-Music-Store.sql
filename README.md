@@ -1,6 +1,6 @@
 # Chinook SQL Business Analysis
 
-## Project Overview
+## 📌 Project Overview
 
 This project analyzes the **Chinook digital media store database** using SQL Server to uncover insights into sales performance, customer behavior, product performance, artist and genre contribution, and revenue trends.
 
@@ -8,7 +8,7 @@ The analysis applies SQL techniques to transform transactional data into actiona
 
 ---
 
-## Business Objectives
+## 🎯 Business Objectives
 
 The analysis focuses on answering key business questions related to:
 
@@ -23,7 +23,7 @@ The analysis focuses on answering key business questions related to:
 
 ---
 
-## Dataset
+## 📊 Dataset
 
 The **Chinook Database** represents a digital media store containing data related to customers, employees, artists, albums, tracks, genres, invoices, and invoice line items.
 
@@ -33,7 +33,7 @@ The database is a widely used sample database for SQL analysis and contains tran
 
 ---
 
-## Tools & Technologies
+## 🛠️ Tools & Technologies
 
 * **Microsoft SQL Server**
 * **SQL Server Management Studio (SSMS)**
@@ -42,7 +42,7 @@ The database is a widely used sample database for SQL analysis and contains tran
 
 ---
 
-## SQL Techniques Applied
+## ⚙️ SQL Techniques Applied
 
 The project demonstrates:
 
@@ -62,7 +62,7 @@ The project demonstrates:
 
 ---
 
-## Analysis Performed
+## 🖼️ Analysis Performed
 
 ### 1. Product & Track Analysis
 
@@ -105,7 +105,7 @@ Applied the `RANK()` window function to rank products based on revenue and ident
 
 ---
 
-## Key Insights
+## 🗝 Key Insights
 
 * A relatively small number of tracks contribute a significant share of total purchases.
 * Customer spending varies considerably, with a subset of customers generating higher transaction value.
@@ -116,7 +116,7 @@ Applied the `RANK()` window function to rank products based on revenue and ident
 
 ---
 
-## Business Recommendations
+## 📈 Business Recommendations
 
 ### Product Strategy
 
